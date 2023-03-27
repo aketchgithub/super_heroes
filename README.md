@@ -34,11 +34,11 @@ rails s
 - A `Power` has many `Hero`s through `HeroPower`
 - A `HeroPower` belongs to a `Hero` and belongs to a `Power`
 
-Hero
+* Hero
 https://super-heroes-api.onrender.com/heros/[:id]
 . GET/RETRIEVE all heros . SHOW specific hero_by[:id] 
 
-Power
+* Power
 https://super-heroes-api.onrender.com/powers/[:id]
 . GET/RETRIEVE all hero powers . Show specific power_by[:id] . UPDATE a hero power
 
